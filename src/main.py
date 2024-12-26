@@ -6,7 +6,7 @@ from collections import namedtuple
 from socket import error as socket_error
 from dotenv import load_dotenv, set_key
 
-from config import determine_persistence_path
+from utils import determine_persistence_path
 from protocols import ProtocolHandler
 
 Error = namedtuple('Error', ('message',))
